@@ -1,0 +1,79 @@
+.banner {
+    color: #fff;
+    background-color: #000;
+    padding: 5px;
+    font-size: 50px;
+    text-align: center;
+    border-top: 1px solid #333;
+}
+
+.content {
+    height: 30px;
+    background-color: #fff;
+}
+
+
+.pagination>li:first-child>a,
+.pagination>li:first-child>span,
+.pagination>li:last-child>a,
+.pagination>li:last-child>span {
+    border-radius: 20px;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    border: none;
+    color: #333;
+    font-size: 25px;
+    padding: 12px 24px;
+    border-radius: 20px;
+}
+
+.pagination>.active>a,
+.pagination>.active>span {
+    background-color: #ddd;
+    border: 1px solid #aaa;
+    color: #333;
+}
+
+@media (min-width: 768px) {
+    .background {
+        background-image: url('/img/header.jpg');
+        background-position: top;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
+
+    .banner {
+        margin-top: 210px;
+    }
+}
+
+.starship-item {
+    border-top: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.starship-item:first-child {
+    border-top: none;
+}
+
+.starship-item img {
+    margin-top: 20px;
+}
+
+.starship-item .info {
+    margin: 15px 0;
+}
+
+@media (min-width: 992px) {
+    .banner {
+        margin-top: 270px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .banner {
+        margin-top: 325px;
+    }
+}
